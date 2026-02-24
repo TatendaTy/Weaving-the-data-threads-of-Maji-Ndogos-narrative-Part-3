@@ -1,0 +1,7 @@
+# virtual environment and environment variables
+.venv
+.env
+
+.vscode/
+md_water_services_erd.mwb.bak
+md_water_services_erd.drawio

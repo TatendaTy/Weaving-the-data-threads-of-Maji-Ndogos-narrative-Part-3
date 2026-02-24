@@ -1,0 +1,459 @@
+{
+  "database": "md_water_services",
+  "tables": [
+    "auditor_report",
+    "data_dictionary",
+    "employee",
+    "global_water_access",
+    "location",
+    "visits",
+    "water_quality",
+    "water_source",
+    "well_pollution"
+  ],
+  "columns": [
+    {
+      "TABLE_NAME": "auditor_report",
+      "COLUMN_NAME": "location_id",
+      "COLUMN_TYPE": "text",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "auditor_report",
+      "COLUMN_NAME": "type_of_water_source",
+      "COLUMN_TYPE": "text",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "auditor_report",
+      "COLUMN_NAME": "true_water_source_score",
+      "COLUMN_TYPE": "int",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "auditor_report",
+      "COLUMN_NAME": "statements",
+      "COLUMN_TYPE": "text",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "data_dictionary",
+      "COLUMN_NAME": "table_name",
+      "COLUMN_TYPE": "varchar(255)",
+      "IS_NULLABLE": "NO",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "data_dictionary",
+      "COLUMN_NAME": "column_name",
+      "COLUMN_TYPE": "varchar(255)",
+      "IS_NULLABLE": "NO",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "data_dictionary",
+      "COLUMN_NAME": "description",
+      "COLUMN_TYPE": "text",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "data_dictionary",
+      "COLUMN_NAME": "datatype",
+      "COLUMN_TYPE": "varchar(50)",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "data_dictionary",
+      "COLUMN_NAME": "related_to",
+      "COLUMN_TYPE": "varchar(255)",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "employee",
+      "COLUMN_NAME": "assigned_employee_id",
+      "COLUMN_TYPE": "int",
+      "IS_NULLABLE": "NO",
+      "COLUMN_KEY": "PRI"
+    },
+    {
+      "TABLE_NAME": "employee",
+      "COLUMN_NAME": "employee_name",
+      "COLUMN_TYPE": "varchar(255)",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "employee",
+      "COLUMN_NAME": "phone_number",
+      "COLUMN_TYPE": "varchar(15)",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "employee",
+      "COLUMN_NAME": "email",
+      "COLUMN_TYPE": "varchar(255)",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "employee",
+      "COLUMN_NAME": "address",
+      "COLUMN_TYPE": "varchar(255)",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "employee",
+      "COLUMN_NAME": "province_name",
+      "COLUMN_TYPE": "varchar(255)",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "employee",
+      "COLUMN_NAME": "town_name",
+      "COLUMN_TYPE": "varchar(255)",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "employee",
+      "COLUMN_NAME": "position",
+      "COLUMN_TYPE": "varchar(255)",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "global_water_access",
+      "COLUMN_NAME": "name",
+      "COLUMN_TYPE": "varchar(255)",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "global_water_access",
+      "COLUMN_NAME": "region",
+      "COLUMN_TYPE": "varchar(255)",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "global_water_access",
+      "COLUMN_NAME": "year",
+      "COLUMN_TYPE": "int",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "global_water_access",
+      "COLUMN_NAME": "pop_n",
+      "COLUMN_TYPE": "float",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "global_water_access",
+      "COLUMN_NAME": "pop_u",
+      "COLUMN_TYPE": "float",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "global_water_access",
+      "COLUMN_NAME": "wat_bas_n",
+      "COLUMN_TYPE": "float",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "global_water_access",
+      "COLUMN_NAME": "wat_lim_n",
+      "COLUMN_TYPE": "float",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "global_water_access",
+      "COLUMN_NAME": "wat_unimp_n",
+      "COLUMN_TYPE": "float",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "global_water_access",
+      "COLUMN_NAME": "wat_sur_n",
+      "COLUMN_TYPE": "float",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "global_water_access",
+      "COLUMN_NAME": "wat_bas_r",
+      "COLUMN_TYPE": "float",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "global_water_access",
+      "COLUMN_NAME": "wat_lim_r",
+      "COLUMN_TYPE": "float",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "global_water_access",
+      "COLUMN_NAME": "wat_unimp_r",
+      "COLUMN_TYPE": "float",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "global_water_access",
+      "COLUMN_NAME": "wat_sur_r",
+      "COLUMN_TYPE": "float",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "global_water_access",
+      "COLUMN_NAME": "wat_bas_u",
+      "COLUMN_TYPE": "float",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "global_water_access",
+      "COLUMN_NAME": "wat_lim_u",
+      "COLUMN_TYPE": "float",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "global_water_access",
+      "COLUMN_NAME": "wat_unimp_u",
+      "COLUMN_TYPE": "float",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "global_water_access",
+      "COLUMN_NAME": "wat_sur_u",
+      "COLUMN_TYPE": "float",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "location",
+      "COLUMN_NAME": "location_id",
+      "COLUMN_TYPE": "varchar(255)",
+      "IS_NULLABLE": "NO",
+      "COLUMN_KEY": "PRI"
+    },
+    {
+      "TABLE_NAME": "location",
+      "COLUMN_NAME": "address",
+      "COLUMN_TYPE": "varchar(255)",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "location",
+      "COLUMN_NAME": "province_name",
+      "COLUMN_TYPE": "varchar(255)",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "location",
+      "COLUMN_NAME": "town_name",
+      "COLUMN_TYPE": "varchar(255)",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "location",
+      "COLUMN_NAME": "location_type",
+      "COLUMN_TYPE": "varchar(255)",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "visits",
+      "COLUMN_NAME": "record_id",
+      "COLUMN_TYPE": "int",
+      "IS_NULLABLE": "NO",
+      "COLUMN_KEY": "PRI"
+    },
+    {
+      "TABLE_NAME": "visits",
+      "COLUMN_NAME": "location_id",
+      "COLUMN_TYPE": "varchar(255)",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": "MUL"
+    },
+    {
+      "TABLE_NAME": "visits",
+      "COLUMN_NAME": "source_id",
+      "COLUMN_TYPE": "varchar(510)",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": "MUL"
+    },
+    {
+      "TABLE_NAME": "visits",
+      "COLUMN_NAME": "time_of_record",
+      "COLUMN_TYPE": "datetime",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "visits",
+      "COLUMN_NAME": "visit_count",
+      "COLUMN_TYPE": "int",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "visits",
+      "COLUMN_NAME": "time_in_queue",
+      "COLUMN_TYPE": "int",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "visits",
+      "COLUMN_NAME": "assigned_employee_id",
+      "COLUMN_TYPE": "int",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": "MUL"
+    },
+    {
+      "TABLE_NAME": "water_quality",
+      "COLUMN_NAME": "record_id",
+      "COLUMN_TYPE": "int",
+      "IS_NULLABLE": "NO",
+      "COLUMN_KEY": "PRI"
+    },
+    {
+      "TABLE_NAME": "water_quality",
+      "COLUMN_NAME": "subjective_quality_score",
+      "COLUMN_TYPE": "int",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "water_quality",
+      "COLUMN_NAME": "visit_count",
+      "COLUMN_TYPE": "int",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "water_source",
+      "COLUMN_NAME": "source_id",
+      "COLUMN_TYPE": "varchar(510)",
+      "IS_NULLABLE": "NO",
+      "COLUMN_KEY": "PRI"
+    },
+    {
+      "TABLE_NAME": "water_source",
+      "COLUMN_NAME": "type_of_water_source",
+      "COLUMN_TYPE": "varchar(255)",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "water_source",
+      "COLUMN_NAME": "number_of_people_served",
+      "COLUMN_TYPE": "int",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "well_pollution",
+      "COLUMN_NAME": "source_id",
+      "COLUMN_TYPE": "varchar(258)",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": "MUL"
+    },
+    {
+      "TABLE_NAME": "well_pollution",
+      "COLUMN_NAME": "date",
+      "COLUMN_TYPE": "datetime",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "well_pollution",
+      "COLUMN_NAME": "description",
+      "COLUMN_TYPE": "varchar(255)",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "well_pollution",
+      "COLUMN_NAME": "pollutant_ppm",
+      "COLUMN_TYPE": "float",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "well_pollution",
+      "COLUMN_NAME": "biological",
+      "COLUMN_TYPE": "float",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    },
+    {
+      "TABLE_NAME": "well_pollution",
+      "COLUMN_NAME": "results",
+      "COLUMN_TYPE": "varchar(255)",
+      "IS_NULLABLE": "YES",
+      "COLUMN_KEY": ""
+    }
+  ],
+  "fks": [
+    {
+      "TABLE_NAME": "visits",
+      "COLUMN_NAME": "location_id",
+      "REFERENCED_TABLE_NAME": "location",
+      "REFERENCED_COLUMN_NAME": "location_id",
+      "CONSTRAINT_NAME": "visits_ibfk_1"
+    },
+    {
+      "TABLE_NAME": "visits",
+      "COLUMN_NAME": "source_id",
+      "REFERENCED_TABLE_NAME": "water_source",
+      "REFERENCED_COLUMN_NAME": "source_id",
+      "CONSTRAINT_NAME": "visits_ibfk_2"
+    },
+    {
+      "TABLE_NAME": "visits",
+      "COLUMN_NAME": "assigned_employee_id",
+      "REFERENCED_TABLE_NAME": "employee",
+      "REFERENCED_COLUMN_NAME": "assigned_employee_id",
+      "CONSTRAINT_NAME": "visits_ibfk_3"
+    },
+    {
+      "TABLE_NAME": "water_quality",
+      "COLUMN_NAME": "record_id",
+      "REFERENCED_TABLE_NAME": "visits",
+      "REFERENCED_COLUMN_NAME": "record_id",
+      "CONSTRAINT_NAME": "water_quality_ibfk_1"
+    },
+    {
+      "TABLE_NAME": "well_pollution",
+      "COLUMN_NAME": "source_id",
+      "REFERENCED_TABLE_NAME": "water_source",
+      "REFERENCED_COLUMN_NAME": "source_id",
+      "CONSTRAINT_NAME": "well_pollution_ibfk_1"
+    }
+  ]
+}
